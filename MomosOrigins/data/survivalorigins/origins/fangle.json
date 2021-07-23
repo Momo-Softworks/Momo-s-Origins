@@ -4,13 +4,9 @@
         "survivalorigins:fangle_scales",
         "survivalorigins:fangle_crocodile_tendencies",
         "survivalorigins:fangle_cold_blooded",
-        "survivalorigins:fangle_fast_swimmer",
-        "survivalorigins:fangle_tired_swimmer",
-        "survivalorigins:fangle_dragon_eyes",
-        "survivalorigins:fangle_lava_swim",
         "survivalorigins:fangle_cold_blooded_slow",
-        "origins:carnivore",
-        "origins:fire_immunity"
+        "survivalorigins:fangle_tired_swimmer",
+        "origins:carnivore"
         
 	],
 	"icon": "minecraft:campfire",
