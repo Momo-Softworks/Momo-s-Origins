@@ -1,2 +1,2 @@
 # Momo's Origins
-# 
+# Momo's Origins is a "hardcore" origins addon, this is the raw datapack. There are some things that will be missing, such as certain potion effects that help us to do some more complicated actions behind the scenes. I may eventually link the source including the workspace of the potion effects and such.
