@@ -1,13 +1,19 @@
 {
     "type": "origins:active_self",
-    "entity_action":
+    "entity_action": 
     {
-        "type": "origins:execute_command",
-        "command": "function momosorigins:crocodile_tendencies",
-        "permission_level": 4
+        "type": "origins:apply_effect",
+        "effect": 
+        {
+        "effect": "momos_origins:fangle",
+        "duration": 1800,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": false
+        }
     },
-    "cooldown": 4200,
-    "hud_render":
+    "cooldown": 3000,
+    "hud_render": 
     {
         "should_render": true,
         "bar_index": 8
