@@ -13,5 +13,7 @@
                 }
     },
     "interval": 20,
-    "hidden": true
+    "hidden": false,
+    "name": "Meditation",
+    "description": "When you hold shift for more than three seconds, you gain Regeneration II for as long as you're sneaking."
 }
