@@ -7,8 +7,8 @@
         "survivalorigins:elf_foraging",
 		"survivalorigins:elf_projectmmo",
 		"survivalorigins:elf_meditation",
-		"survivalorigins:elf_nightvision",
-		"survivalorigins:elf_nightvision_key"
+		"survivalorigins:elf_night_vision",
+		"survivalorigins:elf_night_vision_key"
 	],
 	"icon": "minecraft:oak_leaves",
 	"order": 10,
