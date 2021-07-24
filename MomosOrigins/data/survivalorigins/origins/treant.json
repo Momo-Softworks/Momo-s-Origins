@@ -6,7 +6,8 @@
         "survivalorigins:treant_photosynthesis",
         "survivalorigins:treant_photosynthesis_key",
         "survivalorigins:treant_transfusion",
-		"survivalorigins:treant_no_stomach"
+		"survivalorigins:treant_no_stomach",
+		"survivalorigins:projectmmo"
 	],
 	"icon": "minecraft:oak_sapling",
 	"order": 10,

@@ -5,7 +5,7 @@
         "type": "origins:apply_effect",
         "effect": 
         {
-            "effect": "momos_origins:chameleon",
+            "effect": "momos_origins:chameleonpotion",
             "duration": 40,
             "amplifier": 0,
             "show_particles": false,
