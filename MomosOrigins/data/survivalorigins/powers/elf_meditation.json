@@ -2,7 +2,11 @@
     "type": "origins:action_over_time",
     "entity_action": 
     {
-        "type": "origins:apply_effect",
+        "type": "origins:and",
+        "actions":
+        [
+            {
+                "type": "origins:apply_effect",
                 "effect": 
                 {
                     "effect": "momos_origins:meditation",
@@ -11,6 +15,12 @@
                     "show_particles": false,
                     "show_icon": false
                 }
+            },
+            {
+                "type": "origins:exhaust",
+                "amount": 0.75
+            }
+        ]
     },
     "interval": 20,
     "hidden": false,
