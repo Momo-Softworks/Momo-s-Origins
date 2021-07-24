@@ -6,8 +6,7 @@
         "survivalorigins:elf_frail_constitution",
         "survivalorigins:elf_foraging",
 		"survivalorigins:elf_projectmmo",
-		"survivalorigins:elf_meditation",
-		"survivalorigins:elf_meditation_key"
+		"survivalorigins:elf_meditation"
 	],
 	"icon": "minecraft:oak_leaves",
 	"order": 10,

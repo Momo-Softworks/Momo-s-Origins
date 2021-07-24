@@ -2,77 +2,7 @@
     "type": "origins:action_over_time",
     "entity_action": 
     {
-        "type": "origins:and",
-        "actions": 
-        [
-            {
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:slowness",
-                    "amplifier": 6,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:mining_fatigue",
-                    "amplifier": 4,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:weakness",
-                    "amplifier": 4,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:mining_fatigue",
-                    "amplifier": 4,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:jump_boost",
-                    "amplifier": 181,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:saturation",
-                    "amplifier": 0,
-                    "duration": 1,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {
-                "type": "origins:apply_effect",
+        "type": "origins:apply_effect",
                 "effect": 
                 {
                     "effect": "momos_origins:rooted",
@@ -81,23 +11,7 @@
                     "show_particles": false,
                     "show_icon": false
                 }
-            }
-        ]
     },
     "interval": 20,
-    "condition": 
-    {
-        "type": "origins:and",
-        "conditions":
-        [
-            {
-                "type": "origins:power_active",
-                "power": "survivalorigins:treant_photosynthesis_key"
-            },
-            {
-                "type": "origins:exposed_to_sun"
-            }
-        ]
-    },
     "hidden": true
 }

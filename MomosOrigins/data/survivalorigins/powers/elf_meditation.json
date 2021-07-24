@@ -2,98 +2,16 @@
     "type": "origins:action_over_time",
     "entity_action": 
     {
-        "type": "origins:and",
-        "actions": 
-        [
-            {
-                "type": "origins:apply_effect",
+        "type": "origins:apply_effect",
                 "effect": 
                 {
-                    "effect": "minecraft:slowness",
+                    "effect": "momos_origins:meditation",
                     "amplifier": 6,
                     "duration": 20,
                     "show_particles": false,
                     "show_icon": false
                 }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:mining_fatigue",
-                    "amplifier": 4,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:weakness",
-                    "amplifier": 4,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:mining_fatigue",
-                    "amplifier": 4,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:jump_boost",
-                    "amplifier": 181,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {    
-                "type": "origins:apply_effect",
-                "effect": 
-                {
-                    "effect": "minecraft:regeneration",
-                    "amplifier": 1,
-                    "duration": 40,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
-            {
-                "type": "origins:exhaust",
-                "amount": 0.75
-            }
-        ]
     },
     "interval": 20,
-    "condition": 
-    {
-        "type": "origins:and",
-        "conditions":
-        [
-            {
-                "type": "origins:power_active",
-                "power": "survivalorigins:elf_meditation_key"
-            },
-            {
-                "type": "origins:food_level",
-                "comparison": ">",
-                "compare_to": 0
-            }
-        ]
-        
-    },
     "hidden": true
 }
