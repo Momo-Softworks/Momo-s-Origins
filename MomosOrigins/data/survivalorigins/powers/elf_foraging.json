@@ -91,5 +91,5 @@
     "only_when_harvested": false,
 
     "name": "Foraging",
-    "description": "When you break tall grass you get the chance of harvesting apples, berries, or wheat."
+    "description": "When you break tall grass, grass, or leaves you get the chance of harvesting apples, berries, or wheat."
 }

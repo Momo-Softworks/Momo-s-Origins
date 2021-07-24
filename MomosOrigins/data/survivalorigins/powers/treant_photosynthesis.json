@@ -15,5 +15,5 @@
     "interval": 20,
     "hidden": false,
     "name": "Photosynthesis",
-    "description": "When you hold shift for more than three seconds, you gain Saturation I for as long as you're sneaking."
+    "description": "When you hold shift for more than three seconds, you gain Saturation I for as long as you're sneaking and on earth-based blocks."
 }
