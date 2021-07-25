@@ -11,7 +11,7 @@
                 {
                     "effect": "momos_origins:meditation",
                     "amplifier": 6,
-                    "duration": 20,
+                    "duration": 40,
                     "show_particles": false,
                     "show_icon": false
                 }
@@ -21,6 +21,10 @@
                 "amount": 0.75
             }
         ]
+    },
+    "condition":
+    {
+        "type": "origins:sneaking"
     },
     "interval": 20,
     "hidden": false,

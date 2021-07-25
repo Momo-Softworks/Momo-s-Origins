@@ -12,6 +12,39 @@
                     "show_icon": false
                 }
     },
+    "condition":
+    {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block",
+                "block": "minecraft:grass"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:dirt"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:podzol"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:mycelium"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:sand"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:coarse_dirt"
+            },
+            {
+                "type": "origins:exposed_to_sun"
+            }   
+        ]
+    },
     "interval": 20,
     "hidden": false,
     "name": "Photosynthesis",
